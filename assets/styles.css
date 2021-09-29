@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+div[data-display="hidden"] {
+    display: none;
+}
+
+div[data-visible="visible"] {
+    display: block;
+}
+
+header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    margin-left: 8px;
+    text-decoration: none;
+    color: #F22222;
+}
+header a:hover {
+    text-decoration: underline;
+}
+
+header div {
+    margin-right: 8px;
+}
+
+
